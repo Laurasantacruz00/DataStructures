@@ -46,21 +46,4 @@ def main():
 
 main()
 
-"""less, iqual, higher = [], [], []
-
-    for i in range(len(Array)):  # create the iterations for with conditionals for separate the major and minor numbers
-        if (Array[i] < Array[pivote]):
-            less.append(Array[i])
-        elif (Array[i] > Array[pivote]):
-            higher.append(Array[i])
-        else:
-            iqual.append(Array[i])
-    print ()
-
-    if len(less) > 1:  # define which half will take
-        less = Quick_sort(less)
-    if len(higher) > 1:
-        higher = Quick_sort(higher)
-    return less + iqual + higher"""
-
 
